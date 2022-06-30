@@ -1,0 +1,90 @@
+*
+{
+	box-sizing: border-box;
+	/*margin: 0;
+	padding: 0;*/
+	font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+section{
+	/*position: relative;*/
+	padding:15px;
+}
+div{
+	/*position: relative;*/
+    background-color: grey;
+	border: 2px solid black;
+}
+.content{
+	padding:10px;
+	clear: right;
+}
+.box1{
+	/*position: absolute;
+	top:0px;
+	right:0px;*/
+	float: right;
+	width:200px;
+	background-color: #E894DF;
+	border: 1px solid black;
+	text-align: center;
+	font-size:125%;
+	font-weight: bold;
+	margin: 0px;
+
+}
+.box2{
+	/*position: absolute;*/
+	float: right;
+	width:200px;
+	background-color: #F02E14;
+	color:white;
+	border: 1px solid black;
+	text-align: center;
+	font-size:125%;
+	font-weight: bold;
+	margin: 0px;
+
+}
+.box3{
+	/*position: absolute;*/
+	float: right;
+	width:200px;
+	background-color: #C1DE22;
+	border: 1px solid black;
+	text-align: center;
+	font-size:125%;
+	font-weight: bold;
+	margin: 0px;
+
+}
+@media (min-width: 992px)
+{
+	.cl-lg-4{
+		
+		width:33.33%;
+		float:left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.cl-md-6{
+		width: 50%;
+		float:left;
+	}
+	.cl-md-12{
+		
+        width: 100%;
+        float: left;
+	}
+}
+@media (max-width: 767px)
+{
+	.cl-sm-12{
+		/*background-color: rgba(50,50,50,0.5);*/
+		width:100%;
+	}
+}
